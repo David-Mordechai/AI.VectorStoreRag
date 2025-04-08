@@ -1,4 +1,4 @@
-﻿namespace AI.VectorStoreRag;
+﻿namespace AI.VectorStoreRag.Utilities;
 
 /// <summary>
 /// Interface for loading data into a data store.

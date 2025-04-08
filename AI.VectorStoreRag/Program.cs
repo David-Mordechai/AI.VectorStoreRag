@@ -1,5 +1,6 @@
 ﻿using AI.VectorStoreRag;
 using AI.VectorStoreRag.Options;
+using AI.VectorStoreRag.Utilities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

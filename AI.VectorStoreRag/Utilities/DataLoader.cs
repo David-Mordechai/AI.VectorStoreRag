@@ -6,7 +6,7 @@ using Microsoft.SemanticKernel.Embeddings;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;
 
-namespace AI.VectorStoreRag;
+namespace AI.VectorStoreRag.Utilities;
 
 /// <summary>
 /// Class that loads text from a PDF file into a vector store.

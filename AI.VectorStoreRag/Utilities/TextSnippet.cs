@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.VectorData;
 
-namespace AI.VectorStoreRag;
+namespace AI.VectorStoreRag.Utilities;
 
 /// <summary>
 /// Data model for storing a section of text with an embedding and an optional reference link.

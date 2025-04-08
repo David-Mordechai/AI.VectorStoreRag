@@ -1,4 +1,4 @@
-﻿namespace AI.VectorStoreRag;
+﻿namespace AI.VectorStoreRag.Utilities;
 
 /// <summary>
 /// Class for generating unique keys via a provided function.

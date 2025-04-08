@@ -1,4 +1,5 @@
 ﻿using AI.VectorStoreRag.Options;
+using AI.VectorStoreRag.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
@@ -98,7 +99,7 @@ internal sealed class RagChatService<TKey>(
             // Exit the application if the user didn't type anything.
             if (string.IsNullOrWhiteSpace(question))
             {
-                appShutdownCancellationTokenSource.Cancel();
+                await appShutdownCancellationTokenSource.CancelAsync();
                 break;
             }
 
